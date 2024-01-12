@@ -1,0 +1,113 @@
+.login {
+    height: 100vh;
+}
+
+.header h2 {
+    color:  rgba(85, 104, 230, 1);
+
+    
+}
+
+.header p {
+    color: rgba(73, 80, 87, 1);
+}
+
+.login-right {
+    background-color: rgba(115, 134, 255, 1);
+}
+
+
+
+.col-6 {
+    width: 50%;
+}
+
+.signgoogle,
+.form-control,
+.btn-signin {
+    width: 100%; 
+    margin-top: 1rem; 
+}
+
+
+.signgoogle {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px; 
+    margin-top: 30px;
+}
+
+.signgoogle img {
+    width: 30px;
+}
+
+.signgoogle:hover {
+    background-color: #f0f0f0; 
+}
+
+.or-text {
+    text-align: center;
+    display: block;
+    color: rgb(211, 209, 209);
+}
+
+
+.login-form {
+    margin-top: 1.5rem;
+}
+
+.form-label {
+    display: block;
+    margin-top: 1rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.btn-signin {
+    display: block;
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: rgba(154, 193, 240, 0.8);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-signin:hover{
+    background-color: #007bff;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+    color: #007bff;
+}
+
+
+.btn-click {
+    
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: rgba(154, 193, 240, 0.8);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+    width: 50%;
+}
+
+.btn-click:hover{
+    background-color: #007bff;
+}
+
