@@ -1,8 +1,13 @@
+import "./App.css";
+import Class from "./Component/class-page/class";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import React, {useState} from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './pages/Landing-page';
 import Login from './Component/login';
 import Register from './Component/register';
+
 
 function App() {
   const [isLoggedIn, setLoggedIn] = useState(false);
