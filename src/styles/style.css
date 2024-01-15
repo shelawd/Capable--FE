@@ -1,0 +1,169 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.teks-jumbotron {
+    text-align: left;
+    color: #7386FF;
+}
+
+.teks-jumbotron h1 {
+    font-weight: bold;
+}
+
+.teks-jumbotron .biru {
+    color: #2336B4;
+}
+
+.teks-jumbotron p {
+    color: #29627A;
+}
+
+.img-jumbotron img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-jumbotron2 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.btn-jumbotron {
+    background-color: #E1A779;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.btn-jumbotron:hover {
+    background-color: #7386FF; 
+}
+
+.creative-class h3 {
+    color: #5568E6;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: bold;
+}
+
+.creative-class .card-body {
+    background-color: #F6F6F6;
+}
+
+
+.btn-watch {
+    margin-left: 200px;
+    background-color: #5568E6;
+}
+
+.teacher-group {
+    margin-top: 100px;
+}
+
+.teacher-group h3 {
+    color: #5568E6;
+    font-weight: bold;
+}
+
+.teacher-group p {
+    color: #29627A;
+}
+
+
+.btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-wrapper button {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1); 
+    padding: 10px 20px;
+    border: none;
+    background-color: #fff;
+    color: #7386FF;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.box .card {
+    margin: 0 auto;
+    border: none;
+    box-shadow: #5568E6 0px 2px 20px 0px;
+    border-radius: 20px;
+    min-height: 100px;
+    height: 90%;
+    width: 70%;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.box h4 {
+    color: #2336B4;
+}
+
+.box p {
+    color: #5568E6;
+}
+
+
+.text-nearest h3 {
+    color: #7386FF;
+}
+
+.text-nearest p {
+    color: #29627A;
+}
+
+.btn-nearest {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #5568E6;
+    color: white;
+}
+
+.btn-nearest:hover {
+    background-color: #7386FF; 
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content .col-md-4 {
+    margin-bottom: 5px;
+}
+
+
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin-bottom: 10px;
+}
+
+.footer-content a {
+    color: #343a40;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+    color: #007bff;
+}

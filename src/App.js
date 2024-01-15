@@ -1,17 +1,34 @@
 import "./App.css";
-import Login from "./Component/login-signup/login";
-import Register from "./Component/login-signup/register";
 import Class from "./Component/class-page/class";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import React, {useState} from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LandingPage from './pages/Landing-page';
+import Login from './Component/login';
+import Register from './Component/register';
+
 
 function App() {
+  const [isLoggedIn, setLoggedIn] = useState(false);
+
   return (
-    <div>
-      <Class />
-      {/* <Login />
-      <Register /> */}
-    </div>
+    <Router>
+      <Routes>
+      <Route
+          path="/login"
+          element={<Login setLoggedIn={setLoggedIn} />}
+        />
+        <Route
+          path="/register"
+          element={<Register setLoggedIn={setLoggedIn} />}
+        />
+        <Route 
+        path='/' 
+        element={<LandingPage isLoggedIn={isLoggedIn} setLoggedIn={setLoggedIn} />} />
+        
+      </Routes>
+    </Router>
   );
 }
 
