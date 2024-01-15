@@ -27,6 +27,10 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        <div className="text-end py-3 ms-4 me-4">
+            <hr />
+        <p className="fw-bold">&copy; {new Date().getFullYear()} Capable.com All Rights Reserved Atsy Indonesia</p>
+      </div>
     </div>
     )
 }

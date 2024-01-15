@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../styles/style.css'
 import Navbar from "../Component/navbar";
 import Jumbotron from "../Component/Jumbotron";
@@ -10,7 +11,7 @@ import Footer from "../Component/Footer";
 
 
 
-function LandingPage () {
+function LandingPage ({ isLoggedIn }) {
     return (
         <div>
             <Navbar/>
@@ -20,6 +21,12 @@ function LandingPage () {
             <BoxCategories/>
             <NearestMap/>
             <Footer/>
+
+            {isLoggedIn ? (
+        <p>Welcome, User!</p>
+      ) : (
+        <Link to="/login">Go to Login</Link>
+      )}
         </div>
     );
 }
