@@ -1,15 +1,13 @@
-import './App.css';
-import Login from './Component/login-signup/login';
-import Register from './Component/login-signup/register';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LandingPage from './pages/Landing-page';
 
 function App() {
   return (
-    <div>
-      <Login/>
-      <Register/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<LandingPage />} />
+      </Routes>
+    </Router>
   );
 }
 
