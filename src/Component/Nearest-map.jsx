@@ -2,7 +2,7 @@ import React from "react";
 
 const NearestMap = () => {
     return (
-        <div className="nearest">
+        <div className="nearest" id="information">
             <div className="container">
                 <div className="row mt-5">
                     <div className="col-md-6 col-sm-12">

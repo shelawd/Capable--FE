@@ -34,6 +34,7 @@ function LandingPage({ isLoggedIn, userType }) {
                 <Link to="/login">Go to Login</Link>
             )}
         </div>
+
     );
 }
 
