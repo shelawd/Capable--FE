@@ -11,7 +11,7 @@ import Footer from "../Component/Footer";
 
 
 
-function LandingPage ({ isLoggedIn }) {
+function LandingPage ({ isLoggedIn, userType }) {
     return (
         <div>
             <Navbar/>
@@ -23,7 +23,13 @@ function LandingPage ({ isLoggedIn }) {
             <Footer/>
 
             {isLoggedIn ? (
-        <p>Welcome, User!</p>
+        userType === 'user' ? (
+          <p>Welcome, User!</p>
+        ) : userType === 'teacher' ? (
+          <p>Welcome, Teacher!</p>
+        ) : (
+          <p>Welcome!</p>
+        )
       ) : (
         <Link to="/login">Go to Login</Link>
       )}
