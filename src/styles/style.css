@@ -180,4 +180,11 @@ body {
 
 .report {
     text-align: left; 
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.back-to-dashboard {
+    margin-top: 20px;
+    margin-right: 70px;
 }

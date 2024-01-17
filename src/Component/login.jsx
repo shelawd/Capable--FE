@@ -1,14 +1,25 @@
 import { Link } from "react-router-dom";
-import React, {useState}from "react";
+import React, {useEffect, useState}from "react";
 import '../styles/login.css'
+import { useNavigate } from 'react-router-dom';
 
 const Login = ({setLoggedIn}) => {
+    const navigate = useNavigate();
     const [email, setEmail] = useState(" ");
     const [password, setPassword] = useState (" ");
+
+
+    // useEffect(() => {
+    //     if (user || isSuccess) {
+    //         navigate("/");
+    //     }
+    // })
 
     const handleLogin = () => {
         console.log("Logging in with:", email, password);
         setLoggedIn(true);
+
+        navigate("/")
     };  
 
     return (

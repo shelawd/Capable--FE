@@ -11,29 +11,17 @@ import Footer from "../Component/Footer";
 
 
 
-function LandingPage ({ isLoggedIn, userType }) {
+function LandingPage ({}) {
     return (
         <div>
-            <Navbar/>
+            <Navbar/> 
             <Jumbotron/>
             <CreativeClass/>
             <TeacherGroup/>
             <BoxCategories/>
             <NearestMap/>
             <Footer/>
-
-            {isLoggedIn ? (
-        userType === 'user' ? (
-          <p>Welcome, User!</p>
-        ) : userType === 'teacher' ? (
-          <p>Welcome, Teacher!</p>
-        ) : (
-          <p>Welcome!</p>
-        )
-      ) : (
-        <Link to="/login">Go to Login</Link>
-      )}
-        </div>
+            </div>
     );
 }
 
