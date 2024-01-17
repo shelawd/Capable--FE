@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "../styles/style.css";
-import { Link } from 'react-router-dom';
 
 const Navbar = (props) => {
     const navigate = useNavigate();
@@ -79,6 +78,5 @@ const Navbar = (props) => {
         </nav>
     );
 };
-
 
 export default Navbar;
