@@ -167,3 +167,17 @@ body {
 .footer-content a:hover {
     color: #007bff;
 }
+
+
+
+/*style preview-value*/
+.value-child {
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.report {
+    text-align: left; 
+}
