@@ -4,6 +4,7 @@ import "./class";
 import { Row, Col, Navbar, Button, Modal, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ReactPlayer from "react-player";
+import { Link } from 'react-router-dom';
 
 const Class = () => {
   const [show, setShow] = React.useState(false);
@@ -16,7 +17,7 @@ const Class = () => {
       {/* navbar class page */}
       <Navbar bg="light" expand="lg">
         <div className="container-fluid">
-          <Navbar.Brand href="#">Heading Class Example</Navbar.Brand>
+          <Navbar.Brand href="#">Class Video</Navbar.Brand>
           <Button className="flat" variant="flat" onClick={handleShow}>
             Search Modul/Content CTRL/
           </Button>
@@ -46,8 +47,7 @@ const Class = () => {
           </Col>
           <Col sm={4} className="">
             <div>
-              <button className="btn btn-primary">dd</button>
-              <h4>Module List</h4>
+                <h4>Module List</h4>
               <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
@@ -86,6 +86,7 @@ const Class = () => {
                   </div>
                 </div>
               </div>
+              <Link to="/value" className="btn btn-primary">Finish</Link>
             </div>
           </Col>
         </Row>
