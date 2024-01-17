@@ -11,23 +11,28 @@ import Value from "./Component/Preview-value";
 
 
 function App() {
-  const [isLoggedIn, setLoggedIn] = useState(false);
+    const [isLoggedIn, setLoggedIn] = useState(false);
 
-  return (
-    <Router>
-      <Routes>
-      <Route
-          path="/login"
-          element={<Login setLoggedIn={setLoggedIn} />}
-        />
-        <Route
-          path="/register"
-          element={<Register setLoggedIn={setLoggedIn} />}
-        />
-        <Route 
-        path='/' 
-        element={<LandingPage isLoggedIn={isLoggedIn} setLoggedIn={setLoggedIn} />} />
-        
+    return (
+        <Router>
+            <Routes>
+                <Route
+                    path="/login"
+                    element={<Login setLoggedIn={setLoggedIn} />}
+                />
+                <Route
+                    path="/register"
+                    element={<Register setLoggedIn={setLoggedIn} />}
+                />
+                <Route
+                    path="/"
+                    element={
+                        <LandingPage
+                            isLoggedIn={isLoggedIn}
+                            setLoggedIn={setLoggedIn}
+                        />
+                    }
+                />
 
         <Route path="/class" element={<Class />} />
         <Route path="/value" element={<Value/>}/>
