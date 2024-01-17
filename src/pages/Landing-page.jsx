@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import '../styles/style.css'
+import "../styles/style.css";
 import Navbar from "../Component/navbar";
 import Jumbotron from "../Component/Jumbotron";
 import CreativeClass from "../Component/Creative-class";
@@ -9,30 +9,30 @@ import BoxCategories from "../Component/Box-categories";
 import NearestMap from "../Component/Nearest-map";
 import Footer from "../Component/Footer";
 
-
-
-function LandingPage ({ isLoggedIn, userType }) {
+function LandingPage({ isLoggedIn, userType }) {
     return (
         <div>
-            <Navbar/>
-            <Jumbotron/>
-            <CreativeClass/>
-            <TeacherGroup/>
-            <BoxCategories/>
-            <NearestMap/>
-            <Footer/>
+            <Navbar isLoggedIn={isLoggedIn} />
+            <Jumbotron />
+            <CreativeClass />
+            <TeacherGroup />
+            <BoxCategories />
+            <NearestMap />
+            <Footer />
 
             {isLoggedIn ? (
-        userType === 'user' ? (
-          <p>Welcome, User!</p>
-        ) : userType === 'teacher' ? (
-          <p>Welcome, Teacher!</p>
-        ) : (
-          <p>Welcome!</p>
-        )
-      ) : (
-        <Link to="/login">Go to Login</Link>
-      )}
+                <p>
+                    Welcome,{" "}
+                    {userType === "user"
+                        ? "User"
+                        : userType === "teacher"
+                        ? "Teacher"
+                        : ""}
+                    !
+                </p>
+            ) : (
+                <Link to="/login">Go to Login</Link>
+            )}
         </div>
     );
 }
