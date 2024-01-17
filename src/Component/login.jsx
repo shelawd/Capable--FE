@@ -64,17 +64,6 @@ const Login = ({ setLoggedIn }) => {
                             <div className="header">
                                 <h2>Welcome Back</h2>
                                 <p>Log in to your account</p>
-                                <button className="signgoogle">
-                                    {" "}
-                                    <img
-                                        src="asset/google-icone-svg.png"
-                                        alt="ikon-google"
-                                    />
-                                    Sign in with Google
-                                </button>
-                                <span className="or-text">
-                                    or log in with an email account
-                                </span>
                             </div>
 
                             <div className="login-form">

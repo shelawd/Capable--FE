@@ -6,7 +6,7 @@ const TeacherGroup = () => {
         <div className="container">
             <div className="text-teacher-group text-center">
             <h3>Most Decicated Teacher For Your Child</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, similique.</p>
+            <p>Find your best choice of teacher.</p>
             </div>
             <div className="teacher-group-item">
             <div className="row">
@@ -15,7 +15,7 @@ const TeacherGroup = () => {
                         <img src="asset/teacher1.png" alt="image-teacher" />
                     </div>
                     <div className="btn-wrapper">
-                        <button>Budiono</button>
+                        <button>Budiana</button>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-3 mb-4">
@@ -23,7 +23,7 @@ const TeacherGroup = () => {
                         <img src="asset/teacher1.png" alt="image-teacher" />
                     </div>
                     <div className="btn-wrapper">
-                        <button>Budiono</button>
+                        <button>Budiana</button>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-3 mb-4">
@@ -31,7 +31,7 @@ const TeacherGroup = () => {
                         <img src="asset/teacher1.png" alt="image-teacher" />
                     </div>
                     <div className="btn-wrapper">
-                        <button>Budiono</button>
+                        <button>Budiana</button>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-3 mb-4">
@@ -39,7 +39,7 @@ const TeacherGroup = () => {
                         <img src="asset/teacher1.png" alt="image-teacher" />
                     </div>
                     <div className="btn-wrapper">
-                        <button>Budiono</button>
+                        <button>Budiana</button>
                     </div>
                 </div>
             </div>

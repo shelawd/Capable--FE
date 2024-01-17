@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "../styles/style.css";
-import { Link } from 'react-router-dom';
 
 const Navbar = (props) => {
     const navigate = useNavigate();
@@ -35,19 +34,19 @@ const Navbar = (props) => {
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav ml-auto me-4">
+                <ul className="navbar-nav ml-auto align-items-center">
                     <li className="nav-item me-3">
                         <a className="nav-link" href="#">
                             Home
                         </a>
                     </li>
                     <li className="nav-item me-3">
-                        <a className="nav-link" href="#">
+                        <a className="nav-link" href="#creative-class">
                             Academy
                         </a>
                     </li>
                     <li className="nav-item me-3">
-                        <a className="nav-link" href="#">
+                        <a className="nav-link" href="#information">
                             Information
                         </a>
                     </li>
@@ -58,13 +57,14 @@ const Navbar = (props) => {
                     </li>
                     <li className="nav-item me-3">
                         {props.isLoggedIn ? (
-                            <img
-                                src="asset/avatar.png"
-                                width="30"
-                                height="30"
-                                alt="profile"
-                                className="nav-link"
-                            />
+                            <a className="nav-link " href=""><img 
+                            src="asset/avatar.png"
+                            width="70%"
+                            height="auto"
+                            alt="profile"
+                            className="nav-link"
+                        /></a>
+                            
                         ) : (
                             <button
                                 className="btn btn-outline-primary"
