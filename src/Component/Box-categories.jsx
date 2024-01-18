@@ -4,7 +4,7 @@ import "../styles/style.css";
 const BoxCategories = () => {
     return (
         <div className="box">
-        <div className="container">
+        <div className="container mt-5">
             <div className="row">
                 <div className="col-md-6 col-lg-3 mb-4">
                     <div className="card text-center">

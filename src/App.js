@@ -22,7 +22,7 @@ function App() {
                 />
                 <Route
                     path="/register"
-                    element={<Register setLoggedIn={setLoggedIn} />}
+                    element={<Register/> }
                 />
                 <Route
                     path="/"

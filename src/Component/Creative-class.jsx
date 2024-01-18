@@ -11,9 +11,9 @@ const CreativeClass = () => {
                         <div className="card">
                             <img src="asset/class1.png" alt="class" />
                             <div className="card-body">
-                                <h5 className="card-title">Teacher Name</h5>
+                                <h5 className="card-title">John Doe</h5>
                                 <h5 class="card-class-title">Mathematics Class</h5>
-                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, optio?</p>
+                                <p class="card-text">Navigating math milestones with autism-focused teaching.</p>
                                 <Link to="/class" className="btn-watch btn btn-primary rounded-pill">
                 Watch Now
             </Link>
@@ -24,9 +24,9 @@ const CreativeClass = () => {
                         <div className="card">
                             <img src="asset/class2.png" alt="class" />
                             <div className="card-body">
-                                <h5 className="card-title">Teacher Name</h5>
+                                <h5 className="card-title">Samuel Abdi</h5>
                                 <h5 class="card-class-title">Mathematics Class</h5>
-                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, optio?</p>
+                                <p class="card-text">Navigating math milestones with autism-focused teaching.</p>
                                 <Link to="/class" className="btn-watch btn btn-primary rounded-pill">
                 Watch Now
             </Link>
@@ -37,9 +37,9 @@ const CreativeClass = () => {
                         <div className="card">
                             <img src="asset/class3.png" alt="class" />
                             <div className="card-body">
-                                <h5 className="card-title">Teacher Name</h5>
+                                <h5 className="card-title">Nazela Clara</h5>
                                 <h5 class="card-class-title">Mathematics Class</h5>
-                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, optio?</p>
+                                <p class="card-text">Navigating math milestones with autism-focused teaching.</p>
                                 <Link to="/class" className="btn-watch btn btn-primary rounded-pill">
                 Watch Now
             </Link>
